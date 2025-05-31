@@ -129,7 +129,7 @@ const productos = {
    ,
     producto20: {
         nombre: "Perchero para Llaves",
-        precio: "$8000",
+        precio: "Consultar por el precio",
         descripcion: "Perchero de plástico con forma de gatitos para colgar llaves.",
         imagenes: ["image/D_NQ_NP_2X_923362-MLA85082918641.webp"]
     }
