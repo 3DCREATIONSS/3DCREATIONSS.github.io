@@ -76,7 +76,7 @@ const productos = {
     ,
     producto12: {
         nombre: "Letras Plásticas",
-        precio: "$5000",
+        precio: "Consultar por el precio",
         descripcion: "¡Dale vida a tus espacios con nuestras letras plásticas de 13cm de alto! Ideales para personalizar negocios, eventos, proyectos creativos o decoraciones en el hogar. ",
         imagenes: ["image/473201924_1279609073270356_84244.webp"]
     }
