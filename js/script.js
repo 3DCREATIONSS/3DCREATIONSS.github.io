@@ -33,6 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
             pageNumber.addEventListener('click', function () {
                 paginaActual = i;
                 mostrarPagina(paginaActual);
+                document.getElementById('productos').scrollIntoView({ behavior: 'smooth' });
             });
             pageNumbersContainer.appendChild(pageNumber);
         }
@@ -42,6 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (paginaActual > 1) {
             paginaActual--;
             mostrarPagina(paginaActual);
+            document.getElementById('productos').scrollIntoView({ behavior: 'smooth' });
         }
     });
 
@@ -49,6 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (paginaActual < totalPaginas) {
             paginaActual++;
             mostrarPagina(paginaActual);
+            document.getElementById('productos').scrollIntoView({ behavior: 'smooth' });
         }
     });
 
